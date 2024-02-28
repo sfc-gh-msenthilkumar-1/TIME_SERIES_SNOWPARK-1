@@ -1,0 +1,13 @@
+name: Time_Series
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+dependencies:
+  - python=3.10
+  - ipykernel
+  - snowflake-snowpark-python[pandas]
+  - scikit-learn
+  - xgboost
+  - mlforecast
+  - pip:
+    - snowflake-ml-python
+    - mockseries
